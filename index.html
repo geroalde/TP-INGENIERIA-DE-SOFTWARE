@@ -3,3 +3,60 @@ Una ferretería busca tener una página en la cual se establezcan los tipos de p
 sus respectivos precios. Además, quiere contar con un formulario que permita a los dueños de la misma entender 
 mejor los intereses de los usuarios.
 -->
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MECAN SA</title>
+</head>
+<body>
+    <h1>Nuestros productos</h1>
+    <p>Hola usuario, bienvenido. A continuación te detallaremos la lista de nuestros productos con sus respectivos
+        precios.
+    </p>
+    <h2>Lista</h2>
+    <ul>
+        <li>Rotomartillo Percutor EINHELL TC-RH 900 850RPM: $16973,89</li>
+        <li>Fresadora EINHELL TE-RO 55 1200W 220V: $18446,50</li>
+        <li>Power8 Minidriver: $5253,93</li>
+        <li>Hacha Forestal HIGH-TECH STIHL AX15P: $18880,63</li>
+        <li>Hidrolavadora a explosión STIHL RE272: $173510,38</li>
+        <li>Soplador a bateria STIHL BGA85: $46662,17</li>
+        <li>Pistola de calor SKIL 8005JF 2000W: $12900,05</li>
+        <li>Taladro electrico SKIL 6000JB 500W: $9575,83</li>
+        <li>Regla de medicion para nivel optico y laser bosch GR240: $12985,34</li>
+    </ul>
+</body>
+    <section>
+        <h3>Participe de este corto cuestionario y gane un 10% de descuento</h3>
+        <form action="programaTP.php" method="get">
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" value="21" required>
+        <label for="ciudad">Ciudad:</label>
+        <select name="ciudad">
+            <option value="r">Rosario</option>
+            <option value="v">Venado Tuerto</option>
+            <option value="c">Casilda</option>
+            <option value="m">Murphy</option>
+        </select>
+        <br>
+        <input type="radio" name="check" value="s">
+        He visto mejores precios que en esta página web.
+        <input type="radio" name="check" value="n">
+        No he visto mejores precios en otro lugar.
+        <br>
+        <input type="radio" name="dos" value="si">
+        Compraría en esta página web.
+        <input type="radio" name="dos" value="no">
+        No compraría en esta página web.
+        <br>
+        <input type="checkbox" name="recomendado">
+        <label for="recomendado">¿Llegaste aquí a través de una recomendación?</label>
+        <br>
+        <textarea name="opinion" placeholder="Ayudanos a ayudarte. Dejanos tu opinion." rows=8 cols=40></textarea>
+        <br>
+        <input type="submit" value="Enviar formulario">
+        </form>
+    </section>
+</html>
