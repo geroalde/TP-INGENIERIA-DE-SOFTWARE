@@ -1,0 +1,54 @@
+*
+{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background: linear-gradient(to right, #D9DEA8, #2C6CAA);
+}
+
+h1
+{
+    background: linear-gradient(to right, #2C6CAA, #D9DEA8);
+    margin-top: -8px;
+    color:papayawhip;
+    text-align: center;
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bienvenido
+{
+    background-color: midnightblue;
+    margin-top: -35px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    color: papayawhip ;
+}
+
+h2
+{
+    color: midnightblue;
+}
+.lista
+{
+    margin-top: -25px;
+    text-align: center;
+}
+
+h3
+{
+    margin-top: 2rem;
+    background-color: papayawhip;
+    color: midnightblue;
+}
+
+.cuestionario
+{
+    text-align: center;
+}

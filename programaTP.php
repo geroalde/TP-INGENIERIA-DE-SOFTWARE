@@ -1,8 +1,8 @@
 <?php 
-$edad = $_GET['edad'];
-$ciudad = $_GET['ciudad'];
-$precios = $_GET['check'];
-$comprar = $_GET['dos'];
+$edad = $_POST['edad'];
+$ciudad = $_POST['ciudad'];
+$precios = $_POST['check'];
+$comprar = $_POST['dos'];
 if ($ciudad = 'r') {
     $ciudad = "Rosario";
 }
@@ -27,7 +27,7 @@ if ($_REQUEST['dos']=="si") {
 else {
     $comprar = "No, no comprarías";
 }
-if(isset($_GET['recomendado'])) {
+if(isset($_POST['recomendado'])) {
     $recomendado = "Sí, llegaste por una recomendación";
 }
 else {
